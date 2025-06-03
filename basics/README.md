@@ -7,7 +7,9 @@ This folder contains the first shell-script exercises:
 - `2-bring_me_home` — changes the working directory to the user’s home (must be run with `source`).
 - `3-listfiles` — displays current directory contents in long format (uses `ls -l`).
 - `4-listmorefiles` — displays all files—including hidden ones—in long format (uses `ls -la`).
-- `5-listfilesdigitonly` — displays all files (including hidden) in long format with numeric user and group IDs (uses `ls -lan`).
+- `5-listfilesdigitonly` — displays all files in long format with numeric user and group IDs (uses `ls -lan`).
 - `6-firstdirectory` — creates a directory named `my_first_directory` in `/tmp/` (uses `mkdir`).
 - `7-movethatfile` — moves the file `betty` from `/tmp/` into `/tmp/my_first_directory` (uses `mv`).
 - `8-firstdelete` — deletes the file `betty` from `/tmp/my_first_directory` (uses `rm`).
+- `9-firstdirdeletion` — deletes the directory `/tmp/my_first_directory` (uses `rm -rf`).
+

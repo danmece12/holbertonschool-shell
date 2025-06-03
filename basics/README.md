@@ -9,3 +9,4 @@ This folder contains the first shell-script exercises:
 - `4-listmorefiles` — displays all files—including hidden ones—in long format (uses `ls -la`).
 - `5-listfilesdigitonly` — displays all files (including hidden) in long format with numeric user and group IDs (uses `ls -lan`).
 - `6-firstdirectory` — creates a directory named `my_first_directory` in `/tmp/` (uses `mkdir`).
+- `7-movethatfile` — moves the file `betty` from `/tmp/` into `/tmp/my_first_directory` (uses `mv`).

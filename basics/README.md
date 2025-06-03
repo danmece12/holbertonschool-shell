@@ -8,4 +8,4 @@ This folder contains the first shell-script exercises:
 - `3-listfiles` — displays current directory contents in long format (uses `ls -l`).
 - `4-listmorefiles` — displays all files—including hidden ones—in long format (uses `ls -la`).
 - `5-listfilesdigitonly` — displays all files (including hidden) in long format with numeric user and group IDs (uses `ls -lan`).
-
+- `6-firstdirectory` — creates a directory named `my_first_directory` in `/tmp/` (uses `mkdir`).

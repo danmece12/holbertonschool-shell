@@ -1,0 +1,3 @@
+#!/bin/bash
+find . -maxdepth 1 -user guillaume -name hello -exec chown vincent hello \;
+

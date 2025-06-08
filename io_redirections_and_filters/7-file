@@ -1,5 +1,2 @@
 #!/bin/bash
-# Use ANSI-C quoting ($'…') so every backslash, quote, wildcard, ?, $ and : 
-# ends up literally in the filename.
-filename=$'\\*\\\\\'"Best School"\'\\\\*$\\?\\*\\*\\*\\*\\*:)'
-printf 'Best School\n' > "$filename"
+printf 'Best School\n' > $'\\*\\\\\'"Best School"\'\\\\*$\\?\\*\\*\\*\\*\\*:)'
